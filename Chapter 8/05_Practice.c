@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main() {
-    char str[] = "Hello World!";
+    char str[100] = "Hello World!";
 
-    int i, wordCount = 1;
+    int i = 0, wordCount = 1;
 
     while(str[i] != '\0') {
         if(str[i] == ' ') {
