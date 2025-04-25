@@ -11,6 +11,9 @@ int main(){
     int a = 10;
     int b = a++;
 
+    // b = a++ -> b = a & ++ 
+    // b = ++a -> b = ++ & a 
+
     printf("a = %d\n", a);
     printf("b = %d\n", b);
 
